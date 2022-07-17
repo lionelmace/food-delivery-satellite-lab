@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: icd-cert
-  namespace: {{YOUR_NAMESPACE}}
+  namespace: food-delivery
 type: Opaque
 stringData:
   icd.pem: |

@@ -4,7 +4,7 @@ metadata:
   name: example-food
   namespace: grub
 spec:
-  host: food-{{YOUR_NAMESPACE}}.{{CLUSTER_DOMAIN_NAME}}
+  host: food-food-delivery.mycluster-satellite-lo5bh-222b3514854c2221251113b2b051506c-0000.us-south.containers.appdomain.cloud
   port:
     targetPort: 8090
   to:
@@ -17,7 +17,7 @@ metadata:
   name: apiservice-path-creatorder
   namespace: grub
 spec:
-  host: food-{{YOUR_NAMESPACE}}.{{CLUSTER_DOMAIN_NAME}}
+  host: food-food-delivery.mycluster-satellite-lo5bh-222b3514854c2221251113b2b051506c-0000.us-south.containers.appdomain.cloud
   path: "/createOrder"
   port:
     targetPort: 8080
@@ -31,7 +31,7 @@ metadata:
   name: apiservice-path-status
   namespace: grub
 spec:
-  host: food-{{YOUR_NAMESPACE}}.{{CLUSTER_DOMAIN_NAME}}
+  host: food-food-delivery.mycluster-satellite-lo5bh-222b3514854c2221251113b2b051506c-0000.us-south.containers.appdomain.cloud
   path: "/status"
   port:
     targetPort: 8080
@@ -45,7 +45,7 @@ metadata:
   name: apiservice-path-restaurants
   namespace: grub
 spec:
-  host: food-{{YOUR_NAMESPACE}}.{{CLUSTER_DOMAIN_NAME}}
+  host: food-food-delivery.mycluster-satellite-lo5bh-222b3514854c2221251113b2b051506c-0000.us-south.containers.appdomain.cloud
   path: "/restaurants"
   port:
     targetPort: 8080
@@ -59,7 +59,7 @@ metadata:
   name: apiservice-path-user
   namespace: grub
 spec:
-  host: food-{{YOUR_NAMESPACE}}.{{CLUSTER_DOMAIN_NAME}}
+  host: food-food-delivery.mycluster-satellite-lo5bh-222b3514854c2221251113b2b051506c-0000.us-south.containers.appdomain.cloud
   path: "/user"
   port:
     targetPort: 8080
@@ -73,7 +73,7 @@ metadata:
   name: realtimedata-path-events
   namespace: grub
 spec:
-  host: food-{{YOUR_NAMESPACE}}.{{CLUSTER_DOMAIN_NAME}}
+  host: food-food-delivery.mycluster-satellite-lo5bh-222b3514854c2221251113b2b051506c-0000.us-south.containers.appdomain.cloud
   path: "/events"
   port:
     targetPort: 8080
@@ -87,7 +87,7 @@ metadata:
   name: podconsumerdata-path-consumers
   namespace: grub
 spec:
-  host: food-{{YOUR_NAMESPACE}}.{{CLUSTER_DOMAIN_NAME}}
+  host: food-food-delivery.mycluster-satellite-lo5bh-222b3514854c2221251113b2b051506c-0000.us-south.containers.appdomain.cloud
   path: "/consumers"
   port:
     targetPort: 8080
@@ -101,7 +101,7 @@ metadata:
   name: favorites-path
   namespace: grub
 spec:
-  host: food-{{YOUR_NAMESPACE}}.{{CLUSTER_DOMAIN_NAME}}
+  host: food-food-delivery.mycluster-satellite-lo5bh-222b3514854c2221251113b2b051506c-0000.us-south.containers.appdomain.cloud
   path: "/favorites"
   port:
     targetPort: 8080
